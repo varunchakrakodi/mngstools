@@ -1,0 +1,20 @@
+# Input and output locations
+fastq_dir: "/path/to/fastq"
+output_dir: "/path/to/kraken2_results"
+
+# Human reference used for host-read removal
+reference: "/home/varun/bioinfo/RefSeq/Human/Human.fa"
+
+# Kraken2 and Bracken databases
+kraken_db: "/path/to/kraken2_database"
+bracken_db: "/path/to/kraken2_database"
+
+# Kraken2 and Bracken options
+kraken_confidence: 0.03
+bracken_level: "S"
+bracken_threshold: 2
+
+# allocate resources
+trim_threads: 16
+map_threads: 16
+kraken_threads: 16
