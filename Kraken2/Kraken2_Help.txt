@@ -1,1 +1,17 @@
+Kraken2 folder contains all scripts for running a Kraken algorithm using snakemake program.
+
+- The snakemake script is optimised for nanopore reads
+- Requires multiple dependencies (Ideally setup a conda environment and install all these dependencies) for best results.
+      - snakemake https://anaconda.org/channels/bioconda/packages/snakemake/overview
+      - minimap2 https://anaconda.org/channels/bioconda/packages/minimap2/overview
+      - Chopper https://anaconda.org/channels/bioconda/packages/chopper/overview
+      - Pigz https://anaconda.org/channels/conda-forge/packages/pigz/overview
+      - Seqkit https://anaconda.org/channels/bioconda/packages/seqkit/overview
+      - Kraken2 https://anaconda.org/channels/bioconda/packages/kraken2/overview
+      - Bracken https://anaconda.org/channels/bioconda/packages/bracken/overview
+      - Krakentools https://anaconda.org/channels/bioconda/packages/krakentools/overview
+      - Samtools https://anaconda.org/channels/bioconda/packages/samtools/overview
+      - Plotly https://anaconda.org/channels/main/packages/plotly/overview
+
+The script generates an interactive dashboard: interactive_summary.html which can be opened using xdg-open interactive_summary.html (Summary Folder)
 
