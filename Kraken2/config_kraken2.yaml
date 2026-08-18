@@ -3,7 +3,7 @@ fastq_dir: "/path/to/fastq"
 output_dir: "/path/to/kraken2_results"
 
 # Human reference used for host-read removal
-reference: "/home/varun/bioinfo/RefSeq/Human/Human.fa"
+reference: "/Path/to/host/genome"
 
 # Kraken2 and Bracken databases
 kraken_db: "/path/to/kraken2_database"
