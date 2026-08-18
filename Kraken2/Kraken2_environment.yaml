@@ -1,0 +1,16 @@
+name: kraken2
+channels:
+  - defaults
+dependencies:
+  - samtools
+  - kraken2
+  - snakemake
+  - bracken
+  - minimap2
+  - chopper
+  - pigz
+  - graphviz
+  - pyside6
+  - krakentools
+  - plotly
+  - seqkit
