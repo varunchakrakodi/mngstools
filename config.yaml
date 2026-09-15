@@ -1,0 +1,28 @@
+# Input and output locations
+fastq_dir: "/path/to/fastq/directory"
+output_dir: "/path/to/output/directory"
+
+# Reference for host-read removal. Use Human if none.
+reference: "/path/to/reference.fa"
+
+# Kraken2 and Bracken databases
+kraken_db: "/path/to/kraken2/database"
+bracken_db: "/path/to/kraken2/database"
+
+# Centrifuge options
+centrifuge_db: "/path/to/centrifuge/index_name"
+centrifuge_min_hitlen: 80 ## Higher the better. Change as required
+
+# Kraken2 and Bracken options
+kraken_confidence: 0.04
+bracken_level: "S"
+bracken_threshold: 2
+
+# Allocate resources
+threads: 16
+
+###Provide your API key. This manages multiple reference downloads
+ncbi_api_key: "Your NCBI API key"
+
+# Set to False to retain all intermediate files after generating Results.html. This saves a lot of space.
+clean_intermediates: True   
