@@ -1,0 +1,21 @@
+name: smacked
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - samtools
+  - kraken2
+  - snakemake
+  - bracken
+  - minimap2
+  - chopper
+  - pigz
+  - graphviz
+  - pyside6
+  - krakentools
+  - plotly
+  - seqkit
+  - centrifuge
+  - scipy
+  - ncbi-genome-download
