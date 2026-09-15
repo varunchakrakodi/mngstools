@@ -6,9 +6,14 @@ conda create --file environment.yml
 Get your NCBI API key for uninterrupted download. See https://www.ncbi.nlm.nih.gov/datasets/docs/v2/api/api-keys/
 
 To Run the workflow, activate the smacked environment
+
 conda activate smacked
-**For generating dag file use:** snakemake --snakefile smacked.py --configfile config.yaml --dag | dot -Tpng > dag.png
-**For running snakemake workflow:** snakemake --snakefile smkalign.py --configfile config.yaml --cores n --latency-wait {seconds}
+
+**For generating dag file use:**
+snakemake --snakefile smacked.py --configfile config.yaml --dag | dot -Tpng > dag.png
+
+**For running snakemake workflow:**
+snakemake --snakefile smkalign.py --configfile config.yaml --cores n --latency-wait {seconds}
 
 The Workflow has following dependencies:
 
